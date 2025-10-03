@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-01_recibidor",
-      "name": "01_RECIBIDOR",
+      "id": "0-recibidor",
+      "name": "RECIBIDOR",
       "levels": [
         {
           "tileSize": 256,
@@ -30,23 +30,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.01098338581623004,
-          "pitch": 0.3164689592469614,
+          "yaw": 0.015542293994815992,
+          "pitch": 0.29325564912144486,
           "rotation": 5.497787143782138,
-          "target": "1-02_saln"
+          "target": "1-saln"
         },
         {
-          "yaw": 3.1115173046208975,
-          "pitch": 0.4022023038832465,
+          "yaw": 3.120566237159518,
+          "pitch": 0.2836375149625461,
           "rotation": 0,
-          "target": "2-03_dormitorio_1"
+          "target": "2-dormitorio_1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-02_saln",
-      "name": "02_SALÓN",
+      "id": "1-saln",
+      "name": "SALÓN",
       "levels": [
         {
           "tileSize": 256,
@@ -74,23 +74,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.9291834195917055,
-          "pitch": 0.09505686956390491,
+          "yaw": 0.8003469318888374,
+          "pitch": 0.19542918538526344,
           "rotation": 0.7853981633974483,
-          "target": "0-01_recibidor"
+          "target": "0-recibidor"
         },
         {
-          "yaw": -1.941438787980914,
-          "pitch": 0.5852287832745731,
-          "rotation": 7.853981633974483,
-          "target": "3-03_dormitorio_2"
+          "yaw": -1.9148982512688058,
+          "pitch": 0.30678729805611304,
+          "rotation": 1.5707963267948966,
+          "target": "3-dormitorio_2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-03_dormitorio_1",
-      "name": "03_DORMITORIO_1",
+      "id": "2-dormitorio_1",
+      "name": "DORMITORIO_1",
       "levels": [
         {
           "tileSize": 256,
@@ -118,48 +118,48 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.381944582787023,
-          "pitch": 0.13172506685480556,
+          "yaw": 2.38500767559624,
+          "pitch": 0.224830237620246,
+          "rotation": 1.5707963267948966,
+          "target": "0-recibidor"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-dormitorio_2",
+      "name": "DORMITORIO_2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.5922961828120776,
+          "pitch": 0.31048783288212967,
           "rotation": 0.7853981633974483,
-          "target": "0-01_recibidor"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-03_dormitorio_2",
-      "name": "03_DORMITORIO_2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.5995384003307933,
-          "pitch": 0.27796314902461816,
-          "rotation": 7.0685834705770345,
-          "target": "1-02_saln"
+          "target": "1-saln"
         }
       ],
       "infoHotspots": []
