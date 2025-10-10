@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-recibidor",
-      "name": "RECIBIDOR",
+      "id": "0-360-recibidor",
+      "name": "360-RECIBIDOR",
       "levels": [
         {
           "tileSize": 256,
@@ -30,23 +30,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.035333331600142515,
-          "pitch": 0.29709634287570097,
+          "yaw": 0.013322691974217094,
+          "pitch": 0.20150258136684407,
           "rotation": 5.497787143782138,
-          "target": "1-saln"
+          "target": "1-360-saln"
         },
         {
-          "yaw": 3.1250167850596506,
-          "pitch": 0.26734988971763407,
+          "yaw": 3.113758939917407,
+          "pitch": 0.29592329281563323,
           "rotation": 0,
-          "target": "2-dormitorio-principal"
+          "target": "2-360_dormitorio-1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-saln",
-      "name": "SALÓN",
+      "id": "1-360-saln",
+      "name": "360-SALÓN",
       "levels": [
         {
           "tileSize": 256,
@@ -74,23 +74,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.8077406870234594,
-          "pitch": 0.183184683216723,
+          "yaw": 0.8014207272522338,
+          "pitch": 0.16982407023287394,
           "rotation": 0.7853981633974483,
-          "target": "0-recibidor"
+          "target": "0-360-recibidor"
         },
         {
-          "yaw": -1.930032833567525,
-          "pitch": 0.3183208070594894,
+          "yaw": -1.9154928785022154,
+          "pitch": 0.31622728426454927,
           "rotation": 1.5707963267948966,
-          "target": "3-dormitorio_02"
+          "target": "3-360-dormitorio-2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-dormitorio-principal",
-      "name": "DORMITORIO PRINCIPAL",
+      "id": "2-360_dormitorio-1",
+      "name": "360_DORMITORIO 1",
       "levels": [
         {
           "tileSize": 256,
@@ -118,17 +118,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.3829411552408146,
-          "pitch": 0.21067723622152457,
+          "yaw": 2.379625179401244,
+          "pitch": 0.19233164849731565,
           "rotation": 1.5707963267948966,
-          "target": "0-recibidor"
+          "target": "0-360-recibidor"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-dormitorio_02",
-      "name": "DORMITORIO_02",
+      "id": "3-360-dormitorio-2",
+      "name": "360-DORMITORIO 2",
       "levels": [
         {
           "tileSize": 256,
@@ -156,10 +156,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.586958648887876,
-          "pitch": 0.27922046188581895,
-          "rotation": 7.0685834705770345,
-          "target": "1-saln"
+          "yaw": 1.5744459517046527,
+          "pitch": 0.26411303773341466,
+          "rotation": 1.5707963267948966,
+          "target": "1-360-saln"
         }
       ],
       "infoHotspots": []
