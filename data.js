@@ -1,50 +1,6 @@
 var APP_DATA = {
   "scenes": [
-    {
-      "id": "0-360-saln",
-      "name": "360-SALÓN",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.7905543744097479,
-          "pitch": 0.17434269294316884,
-          "rotation": 0.7853981633974483,
-          "target": "1-360-recibidor"
-        },
-        {
-          "yaw": -1.9157569590301975,
-          "pitch": 0.39453221613736744,
-          "rotation": 1.5707963267948966,
-          "target": "5-360-dormitorio-2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
+   {
       "id": "1-360-recibidor",
       "name": "360-RECIBIDOR",
       "levels": [
@@ -90,6 +46,50 @@ var APP_DATA = {
           "pitch": 0.22815410587453933,
           "rotation": 0,
           "target": "3-360_dormitorio-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "0-360-saln",
+      "name": "360-SALÓN",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.7905543744097479,
+          "pitch": 0.17434269294316884,
+          "rotation": 0.7853981633974483,
+          "target": "1-360-recibidor"
+        },
+        {
+          "yaw": -1.9157569590301975,
+          "pitch": 0.39453221613736744,
+          "rotation": 1.5707963267948966,
+          "target": "5-360-dormitorio-2"
         }
       ],
       "infoHotspots": []
