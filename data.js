@@ -1,51 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-360-recibidor",
-      "name": "360-RECIBIDOR",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.019300542968769818,
-          "pitch": 0.2749311995507835,
-          "rotation": 0,
-          "target": "1-360-saln"
-        },
-        {
-          "yaw": 3.132956082373287,
-          "pitch": 0.2316857957806988,
-          "rotation": 0,
-          "target": "2-360_dormitorio-1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-360-saln",
+      "id": "0-360-saln",
       "name": "360-SALÓN",
       "levels": [
         {
@@ -74,22 +30,110 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.8275576686123305,
-          "pitch": 0.13441934451333815,
+          "yaw": 0.7905543744097479,
+          "pitch": 0.17434269294316884,
           "rotation": 0.7853981633974483,
-          "target": "0-360-recibidor"
+          "target": "1-360-recibidor"
         },
         {
-          "yaw": -1.928110799228481,
-          "pitch": 0.2735604573347974,
+          "yaw": -1.9157569590301975,
+          "pitch": 0.39453221613736744,
           "rotation": 1.5707963267948966,
-          "target": "4-360-dormitorio-2"
+          "target": "5-360-dormitorio-2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-360_dormitorio-1",
+      "id": "1-360-recibidor",
+      "name": "360-RECIBIDOR",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.029448159675313335,
+          "pitch": 0.30788164530696704,
+          "rotation": 0,
+          "target": "0-360-saln"
+        },
+        {
+          "yaw": -2.669030314807248,
+          "pitch": 0.31978059867217823,
+          "rotation": 0.7853981633974483,
+          "target": "2-360_bao-cortesa"
+        },
+        {
+          "yaw": 3.115083165100784,
+          "pitch": 0.22815410587453933,
+          "rotation": 0,
+          "target": "3-360_dormitorio-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-360_bao-cortesa",
+      "name": "360_BAÑO CORTESÍA",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -0.32708174705542703,
+        "pitch": 0.1929276545773888,
+        "fov": 1.325599857056214
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.5829693317135458,
+          "pitch": 0.3497812605076476,
+          "rotation": 0,
+          "target": "1-360-recibidor"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-360_dormitorio-1",
       "name": "360_DORMITORIO 1",
       "levels": [
         {
@@ -118,22 +162,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.1350493256873015,
-          "pitch": 0.20298622676118683,
+          "yaw": 2.1384588802956177,
+          "pitch": 0.26232194799473874,
           "rotation": 0,
-          "target": "3-360-bao-principal"
+          "target": "4-360-bao-principal"
         },
         {
-          "yaw": 2.3866879442647964,
-          "pitch": 0.19329380619239345,
+          "yaw": 2.385002401371965,
+          "pitch": 0.20939172064154477,
           "rotation": 0.7853981633974483,
-          "target": "0-360-recibidor"
+          "target": "1-360-recibidor"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-360-bao-principal",
+      "id": "4-360-bao-principal",
       "name": "360-BAÑO PRINCIPAL",
       "levels": [
         {
@@ -156,22 +200,22 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -0.0872948524456767,
+        "pitch": 0.2452760789434496,
+        "fov": 1.325599857056214
       },
       "linkHotspots": [
         {
-          "yaw": 0.03714967848530826,
-          "pitch": 0.2214407546545658,
-          "rotation": 1.5707963267948966,
-          "target": "2-360_dormitorio-1"
+          "yaw": 0.0004199883640971791,
+          "pitch": 0.2527908010330897,
+          "rotation": 0.7853981633974483,
+          "target": "3-360_dormitorio-1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-360-dormitorio-2",
+      "id": "5-360-dormitorio-2",
       "name": "360-DORMITORIO 2",
       "levels": [
         {
@@ -200,16 +244,60 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.5813884465474306,
-          "pitch": 0.2136200668029833,
-          "rotation": 1.5707963267948966,
-          "target": "1-360-saln"
+          "yaw": 1.2850053529572598,
+          "pitch": 0.21711298127248035,
+          "rotation": 5.497787143782138,
+          "target": "6-360_bao-dormitorio-individual"
+        },
+        {
+          "yaw": 1.579859977110389,
+          "pitch": 0.18395924598772062,
+          "rotation": 0.7853981633974483,
+          "target": "0-360-saln"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-360_bao-dormitorio-individual",
+      "name": "360_BAÑO DORMITORIO INDIVIDUAL",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.3828802007381569,
+          "pitch": 0.2866557355365895,
+          "rotation": 0,
+          "target": "5-360-dormitorio-2"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "IQEVO-PLANTA PRIMERA",
+  "name": "IQevo-PLANTA PRIMERA",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
